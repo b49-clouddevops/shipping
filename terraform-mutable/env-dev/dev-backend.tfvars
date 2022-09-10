@@ -1,3 +1,3 @@
     bucket = "b49-rf-remote-state-bucket"
-    key    = "mutable/cart/dev/terraform.tfstate"
+    key    = "mutable/shipping/dev/terraform.tfstate"
     region = "us-east-1"
