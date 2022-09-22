@@ -9,5 +9,6 @@
 # RUN         ls -ltr
 # RUN         mv target/shipping-1.0.jar shipping.jar 
 
-FROM       
+FROM       openjdk 
+RUN        mkdir 
 ENTRYPOINT [ "java", "-jar", "shipping.jar" ]
