@@ -3,4 +3,5 @@
 env.COMPONENT="shipping"
 env.APP_TYPE="java"
 // maven()
+create-package()
 docker()
