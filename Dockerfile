@@ -5,7 +5,7 @@ WORKDIR     /home/roboshop
 COPY        src . 
 COPY        pom.xml . 
 RUN         ls -ltr 
-RUN         mvn package  
+RUN         mvn clean package  
 RUN         ls -ltr
 RUN         mv target/shipping-1.0.jar shipping.jar 
 ENTRYPOINT [ "java", "-jar", "shipping.jar" ]
