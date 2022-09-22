@@ -5,4 +5,4 @@ WORKDIR     /home/roboshop
 COPY        scr . 
 RUN         ls -ltr 
 RUN         mvn package  
-RUN       
+RUN         mv target/shipping-1.0.jar shipping.jar
