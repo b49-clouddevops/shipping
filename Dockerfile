@@ -1,5 +1,5 @@
 FROM        maven  
-RUN         useradd roboshop 
+RUN         useradd -m roboshop 
 USER        roboshop  
 WORKDIR     /home/roboshop   
 COPY        src . 
