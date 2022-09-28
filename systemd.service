@@ -10,3 +10,7 @@ SyslogIdentifier=shipping
 
 [Install]
 WantedBy=multi-user.target
+
+
+DB_HOST: 
+CART_ENDPOINT: cart-service 
