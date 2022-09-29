@@ -4,11 +4,17 @@
 
 replicaCount: 1
 
+appPortNumber: 8080 
+appName: shipping  
+
+ingress: 
+  enabled: false  
+
 image:
   repository: 834725375088.dkr.ecr.us-east-1.amazonaws.com/shipping
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 10.0.0"
+  tag: 7.0.0"
 
 imagePullSecrets: []
 nameOverride: ""
